@@ -63,10 +63,6 @@ export class TodosComponent implements OnInit {
     if(confirm("Are you sure want to DELETE todo?")){
       this._todoapiService.removeTitle($key);
     }
-    /*
-    if(confirm("Are you sure to delete "+name)) {
-    console.log("Implement delete functionality here");
-  } 
-    */
   }
+  
 }
